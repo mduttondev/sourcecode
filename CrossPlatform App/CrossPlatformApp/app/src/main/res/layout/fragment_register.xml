@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:text="REGISTER: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/reg_desiredUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/usernameHint"
+        android:textColorHint="@color/graycolor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/reg_desiredPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/passwordHint"
+        android:textColorHint="@color/graycolor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/name"
+        android:textColorHint="@color/graycolor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/graycolor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/reg_registerButton"
+        android:text="@string/registerButtonText"
+        android:minHeight="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/whiteColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_states"
+        android:maxHeight="60dp"
+        android:layout_marginTop="45dp"/>
+
+</LinearLayout>

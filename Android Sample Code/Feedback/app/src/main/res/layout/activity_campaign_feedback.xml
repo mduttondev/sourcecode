@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="com.mkdutton.feedback.CampaignFeedbackActivity"
+    android:orientation="vertical"
+    tools:ignore="InvalidId">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/feedbackContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/topElements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/placard_card_type">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:id="@+id/camp_userName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaign: "
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:id="@+id/camp_prettyName"
+            android:layout_below="@+id/camp_userName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="83dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: "
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:id="@+id/camp_idField"
+            android:layout_below="@+id/camp_prettyName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/camp_QRImage"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:src="@drawable/placeholder_200x200"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/seperator"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:elevation="2dp"
+            android:layout_below="@id/topElements"
+            android:background="@android:color/darker_gray"/>
+
+        <ListView
+            android:id="@+id/camp_feedBackList"
+            android:layout_below="@id/seperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            </ListView>
+
+        <TextView
+            android:id="@+id/camp_emptyText"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_below="@id/camp_feedBackList"
+            android:text="@string/camp_emptyText"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

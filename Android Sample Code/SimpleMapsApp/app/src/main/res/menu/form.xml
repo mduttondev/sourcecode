@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mkdutton.labfive.FormActivity" >
+
+    <item android:id="@+id/action_Camera"
+    android:title="Take Picture"
+    android:icon="@android:drawable/ic_menu_camera"
+    android:orderInCategory="100"
+    android:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/action_Save"
+        android:title="Take Picture"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText" />
+
+</menu>

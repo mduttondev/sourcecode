@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register as a new\n   Feedback user"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/titleText"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/regFN_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/firstnameHint"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_alignLeft="@+id/reg_submitBtn"
+        android:layout_alignRight="@+id/reg_submitBtn"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/titleText" />
+
+    <EditText
+        android:id="@+id/regLN_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/lastnameHint"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_below="@id/regFN_Text"
+        android:layout_alignLeft="@+id/reg_submitBtn"
+        android:layout_alignRight="@+id/reg_submitBtn"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/regUN_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/usernameHint"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_alignLeft="@+id/reg_submitBtn"
+        android:layout_alignRight="@+id/reg_submitBtn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/regLN_Text" />
+
+    <EditText
+        android:id="@+id/regPASS_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/passwordHint"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_below="@id/regUN_Text"
+        android:layout_alignLeft="@+id/reg_submitBtn"
+        android:layout_alignRight="@+id/reg_submitBtn"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/regEmail_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/emailHint"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_below="@id/regPASS_Text"
+        android:layout_alignLeft="@+id/reg_submitBtn"
+        android:layout_alignRight="@+id/reg_submitBtn"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress" />
+
+
+    <Button
+        android:id="@+id/reg_submitBtn"
+        android:text="@string/registerText"
+        android:minHeight="60dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_states"
+        android:maxHeight="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/regEmail_Text"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>

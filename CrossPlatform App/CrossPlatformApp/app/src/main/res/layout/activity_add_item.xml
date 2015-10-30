@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context="com.mkdutton.crossplatformapp.AddItemActivity">
+
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/Item"
+        android:textColorHint="@color/graycolor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:inputType="textCapSentences"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/itemAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/qty"
+        android:textColorHint="@color/graycolor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:inputType="number"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:text="@string/addBtn"
+        android:minHeight="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/whiteColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_states"
+        android:maxHeight="60dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

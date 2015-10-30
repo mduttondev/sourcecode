@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>491C96CB-E35D-4736-A3C6-508823C9EA69</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSCrossPlatform</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE76A8CD7F5D0844C907AA04B5916919BB1D0C0E</key>
+		<string>https://github.com/mdutton-fullsail/sourcecode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrossPlatform App/iOSCrossPlatform/iOSCrossPlatform.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE76A8CD7F5D0844C907AA04B5916919BB1D0C0E</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mdutton-fullsail/sourcecode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE76A8CD7F5D0844C907AA04B5916919BB1D0C0E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE76A8CD7F5D0844C907AA04B5916919BB1D0C0E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sourcecode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

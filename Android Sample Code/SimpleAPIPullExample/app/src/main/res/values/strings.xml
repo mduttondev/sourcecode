@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Navigation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_placeholder">Title</string>
+    <string name="subreddit_placeholder">Sub-Reddit</string>
+    <string name="author_placeholder">Author</string>
+    <string name="date_placeholder">Date</string>
+    <string name="progress_message">Gathering Information.......</string>
+    <string name="pref_list_dialog_title">Choose Connection Type:</string>
+
+    <string-array name="subredditsArray">
+        <item>todayilearned</item>
+        <item>grandtheftautov</item>
+        <item>onejob</item>
+        <item>android</item>
+        <item>androiddev</item>
+        <item>pics</item>
+        <item>PerfectTiming</item>
+        <item>lifehacks</item>
+        <item>bestof</item>
+        <item>dataisbeautiful</item>
+        <item>worldnews</item>
+        <item>adviseanimals</item>
+        <item>explainlikeimfive</item>
+        <item>YouShouldKnow</item>
+    </string-array>
+    <string-array name="connection_type">
+        <item>Wifi Only</item>
+        <item>Always Offline</item>
+        <item>Any Connection</item>
+    </string-array>
+    <string-array name="connection_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="title_activity_second">Settings</string>
+    <string name="title_activity_details">Post Details</string>
+    <string name="viewOnWebButtonText">View On Web</string>
+    <string name="delete">Delete</string>
+
+</resources>

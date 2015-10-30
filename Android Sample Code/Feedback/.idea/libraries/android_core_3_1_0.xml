@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android-core-3.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-core/3.1.0/d3208d63e6d8607f3d81fbf4ff62577f5dde8589/android-core-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-core/3.1.0/7ced89b8b0f3c1dbdfb0877d4a03bc83c6881191/android-core-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mkdutton.feedback" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mkdutton.feedback.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mkdutton.feedback.LvFeedbackActivity"
+            android:label="@string/title_activity_lv_feedback"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mkdutton.feedback.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mkdutton.feedback.CampaignListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_campaign_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mkdutton.feedback.AddCampaignActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_add_campaign"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mkdutton.feedback.QRScannerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_qrscanner" >
+        </activity>
+        <activity
+            android:name="com.mkdutton.feedback.CampaignFeedbackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_campaign_feedback" >
+        </activity>
+    </application>
+
+</manifest>

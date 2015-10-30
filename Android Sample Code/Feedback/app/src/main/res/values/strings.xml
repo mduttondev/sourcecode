@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feedback</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lv_feedback">Leave Feedback</string>
+    <string name="title_activity_login">Login</string>
+    <string name="action_scan">Scan QR</string>
+    <string name="Icon_description">Icon</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="loginText">Log-in</string>
+    <string name="registerText">Register</string>
+    <string name="emailHint">E-mail</string>
+    <string name="firstnameHint">First Name</string>
+    <string name="lastnameHint">Last Name</string>
+    <string name="title_activity_campaign_list">All Campaigns</string>
+    <string name="add_campaign">Add Campaign</string>
+    <string name="Placeholder">PlaceHolder</string>
+    <string name="valuePH">Value</string>
+    <string name="numCampaigns"># of Campaigns:</string>
+    <string name="username">Username:</string>
+    <string name="logout">Logout</string>
+    <string name="emptyText">No Campaigns Were Found</string>
+    <string name="num">00</string>
+    <string name="title_activity_add_campaign">Add Campaign</string>
+    <string name="saveCampaign">Save Campaign</string>
+    <string name="CampaignID">Campaign ID</string>
+    <string name="genBtnTxt">Generate new ID</string>
+    <string name="CampaignName">Name your campaign here</string>
+    <string name="genQRBtnTxt">Generate QR Code</string>
+    <string name="saveText">Long press to save QR</string>
+    <string name="saveQR">Save QR</string>
+    <string name="shareQR">Share QR</string>
+    <string name="del_campaign">Delete</string>
+    <string name="resetPassText"><u>Click here to reset your password</u></string>
+    <string name="emailToRecover">Recovery E-mail</string>
+    <string name="recover">Recover Password</string>
+    <string name="enterIDText">Enter ID or Scan QR code</string>
+    <string name="leavefeedbackmessage">Leave Feedback Here</string>
+    <string name="switchMessage">Leave Contact\nInformation?</string>
+    <string name="name">Your name</string>
+    <string name="info">Contact Method\n(E-mail or Phone)</string>
+    <string name="submitFeedback">Submit Feedback</string>
+    <string name="title_activity_qrscanner">Scan QR</string>
+    <string name="title_activity_campaign_feedback">Feedback</string>
+    <string name="camp_emptyText">No Feedback was found</string>
+    <string name="campaign">Campaign: </string>
+    <string name="contact">Name: </string>
+    <string name="contactMethod">Contact:</string>
+    <string name="feedback">Feedback from: </string>
+    <string name="timeStamp">Left on:</string>
+    <string name="share">Share Feedback</string>
+    <string name="facebook_app_id">1523407244575358</string>
+
+
+</resources>

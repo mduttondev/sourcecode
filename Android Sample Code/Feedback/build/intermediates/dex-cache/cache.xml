@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Matt/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/commons-io-2.4-21e39bdd5684e00dd06637d56b7a34a3015b0e16.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="4b10baf38cb190650e6231f136e189a27b70c56b">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/classes-ed2c74644e04a5a74feaed9d5b8fb3af95db58f2.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="85fd787f604f8fc6564ff7d4cce05f6522f180ab">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/classes-b3d2c20d592d1caddd17a407ac3311022176b7c3.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/classes-f78a5a6dc9d8f472d1f3206bbcd506221906a821.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/libs/Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/Parse-1.7.1-3d71ae04d6de185f0d28f9aa5f494ccd697240e5.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/.gradle/caches/modules-2/files-2.1/org.apache.directory.studio/org.apache.commons.io/2.4/b98d592c582262b3da8a871c7317f4902d98e996/org.apache.commons.io-2.4.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="b98d592c582262b3da8a871c7317f4902d98e996">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/org.apache.commons.io-2.4-861f1863d4bcb58fe1fc8569d238ecf3b10b7e14.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.5/libs/zbar.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/zbar-cfbd18515ac255fd15094217038730106ea7d653.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/libs/bolts-android-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.3-21fd8ced752373ed16d7c356e5a8f87addde41ce.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-f07fa45686519e6a86d0033fe7773fe5bd4147f1.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/classes-c8d5e271ee6b285d16b3509d7a2c2d6a4ddc5a1b.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.5/libs/armeabi.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="f9b796c889e398a8fd6b2f997b94c101e8a9dbcb">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/armeabi-f23fc774e54a2b61d4235fa32ae8c84ef054d446.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.5/libs/x86.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="4cec3c6e129913967ff2d71da18e2daf6bd1b565">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/x86-8d397d6491c9be70f4fd0649c1b19a350e36637f.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-d494a59bda92e2b1c192276440b2482cae1cd4bc.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.1.0/908e18674f895e3e1fa8f4a954b8c637a23d2801/core-3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="908e18674f895e3e1fa8f4a954b8c637a23d2801">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/core-3.1.0-12fec468bad733f0d0f9d1e6f2c7c3f3415ead12.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-core/3.1.0/d3208d63e6d8607f3d81fbf4ff62577f5dde8589/android-core-3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="d3208d63e6d8607f3d81fbf4ff62577f5dde8589">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/android-core-3.1.0-d3e56c4250f5cd0ced1cfaaadd11134a09708346.jar" />
+    </item>
+    <item
+        jar="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.5/libs/armeabi-v7a.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1d1c924a0f3fb116c770f07a992a1d9fff5365b9">
+        <dex dex="/Users/Matt/Dropbox/GIT_Files/sourcecode/Android Sample Code/Feedback/app/build/intermediates/pre-dexed/debug/armeabi-v7a-a8e04563a27c03631c2a8866e9824188da486150.jar" />
+    </item>
+
+</items>

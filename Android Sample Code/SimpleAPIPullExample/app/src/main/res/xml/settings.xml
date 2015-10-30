@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Uncomment this to apply a blank preferences button, effectively
+        moving the Data usage header down approx 50dp -->
+
+    <!--<Preference-->
+        <!--android:key="space"-->
+        <!--android:title=""/>-->
+
+    <PreferenceCategory android:title="Data Usage:">
+
+        <ListPreference
+            android:key="CONN_TYPE"
+            android:title="Allowed Connections"
+            android:entries="@array/connection_type"
+            android:entryValues="@array/connection_values"
+            android:defaultValue="2"
+            android:dialogTitle="@string/pref_list_dialog_title"/>
+
+    </PreferenceCategory>
+
+        <Preference
+            android:key="CLEAR_DATA"
+            android:title="Clear Cached Data"
+            android:summary="Clear all cached data related to this application"/>
+
+
+</PreferenceScreen>

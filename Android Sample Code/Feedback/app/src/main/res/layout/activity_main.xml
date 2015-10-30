@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+        <ImageView
+            android:id="@+id/mainIcon"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/leaveFeedBackBtn" />
+
+        <Button
+            android:id="@+id/leaveFeedBackBtn"
+            android:text="Leave Feedback"
+            android:minHeight="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_states"/>
+        <Button
+            android:id="@+id/viewFeedBackBtn"
+            android:text="View your Feedback"
+            android:minHeight="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leaveFeedBackBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/button_states" />
+
+
+</RelativeLayout>

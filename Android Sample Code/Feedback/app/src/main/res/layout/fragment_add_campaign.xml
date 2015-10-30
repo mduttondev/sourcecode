@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+
+    <EditText
+        android:id="@+id/add_prettyName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/CampaignName"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="30dp" />
+
+
+    <EditText
+        android:id="@+id/add_campaignID"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/CampaignID"
+        android:textColorHint="@color/graycolor"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/blackColor"
+        android:layout_gravity="center"
+        android:editable="false"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/generateNewIDBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/genBtnTxt"
+        android:background="@drawable/button_states"/>
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/add_saveText"
+        android:layout_width="270dp"
+        android:layout_height="20dp"
+        android:minHeight="48dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/saveText"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+
+
+    <Button
+        android:id="@+id/generateNewQRBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/genQRBtnTxt"
+        android:background="@drawable/button_states"/>
+
+
+</LinearLayout>

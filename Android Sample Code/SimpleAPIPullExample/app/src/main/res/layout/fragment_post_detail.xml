@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mkdutton.androidnavigation.PostDetailFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="@string/subreddit_placeholder"
+        android:textSize="@dimen/Title_Text_size"
+        android:layout_gravity="center"
+        android:padding="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub"
+        android:text="@string/subreddit_placeholder"
+        android:textSize="@dimen/Details_Text_size"
+        android:layout_gravity="center"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/author"
+        android:text="@string/author_placeholder"
+        android:textSize="@dimen/Details_Text_size"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="@string/date_placeholder"
+        android:textSize="@dimen/Details_Text_size"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/viewOnWebButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_weight=".4"
+            android:layout_marginTop="25dp"
+            android:text="@string/viewOnWebButtonText"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
