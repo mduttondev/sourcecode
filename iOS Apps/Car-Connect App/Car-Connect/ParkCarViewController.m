@@ -13,6 +13,8 @@
 
 @interface ParkCarViewController ()
 
+@property (nonatomic, strong) CLLocationManager * locationManager;
+
 @end
 
 @implementation ParkCarViewController
@@ -23,36 +25,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.locationManager = [CLLocationManager new];
+    
     // analytics information
     self.screenName = @"Set Parking Screen";
     id<GAITracker> tracker = [[GAI sharedInstance]defaultTracker];
     [tracker set:kGAIScreenName value:@"Set Parking Screen"];
     [tracker send:[[GAIDictionaryBuilder createAppView]build]];
     
-    // array for use with the annotations
-    parkingPoint = [[NSMutableArray alloc]init];
     
-    // setting maptype and userlocation on map
-    parkView.showsUserLocation = YES;
-    parkView.mapType = MKMapTypeHybrid;
-    parkView.delegate = self;
+    if ([CLLocationManager locationServicesEnabled]) {
+        
+        if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined) {
+            [self.locationManager requestWhenInUseAuthorization];
+        }
+        
+        [self.locationManager startUpdatingLocation];
+        
+    }
     
-    // setting map around the user location
-    MKUserLocation* userLocation = parkView.userLocation;
-    MKCoordinateSpan span =  MKCoordinateSpanMake(.005f, .005f);
-    MKCoordinateRegion region = MKCoordinateRegionMake(userLocation.location.coordinate, span);
-    [parkView setRegion:region animated:NO];
-    
-    // setting the there is no pin dropped on the map at current
-    isPinDropped = NO;
-    
-    // setting the initial look of the button 
-    parkHereButton.layer.cornerRadius = 8;
-    parkHereButton.layer.borderWidth = 1;
-    parkHereButton.layer.borderColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0].CGColor;
-    
+    [self setupViewController];
     
 }
+
+
 -(void)viewDidAppear:(BOOL)animated {
     // start the activity indicator animation
     [self startingAnimation];
@@ -92,10 +89,30 @@
     }
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) setupViewController {
+    
+    // array for use with the annotations
+    parkingPoint = [[NSMutableArray alloc]init];
+    
+    // setting maptype and userlocation on map
+    parkView.showsUserLocation = YES;
+    parkView.mapType = MKMapTypeHybrid;
+    parkView.delegate = self;
+    
+    // setting map around the user location
+    MKUserLocation* userLocation = parkView.userLocation;
+    MKCoordinateSpan span =  MKCoordinateSpanMake(.005f, .005f);
+    MKCoordinateRegion region = MKCoordinateRegionMake(userLocation.location.coordinate, span);
+    [parkView setRegion:region animated:NO];
+    
+    // setting the there is no pin dropped on the map at current
+    isPinDropped = NO;
+    
+    // setting the initial look of the button
+    parkHereButton.layer.cornerRadius = 8;
+    parkHereButton.layer.borderWidth = 1;
+    parkHereButton.layer.borderColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0].CGColor;
+    
 }
 
 
